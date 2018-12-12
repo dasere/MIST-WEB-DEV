@@ -27,18 +27,18 @@ background-color:red;
 color:white;
 text-align:center;
 border-radius:7px;
-font-size:55px
-height:70px;
 font-weight:bold;
 }
 .signindeets{
 text-align:center;
-padding:40px;
+padding:20px;
+font-size:17px;
 }
 img{
 float:left;
-height:70px;
-width:70px;
+height:60px;
+width:60px;
+margin:5px;
 }
 .slcm{
 font-size:35px;
@@ -48,16 +48,36 @@ opacity:0.8;
 height:70px;
 width:100%;
 text-align:right;
+
 }
 .slcm2{
-font-size:40px;
+font-size:15px;
 color:white;
 background-color:black;
 opacity:0.8;
-height:50px;
+height:30px;
 position:fixed;
 bottom:0px;
 width:100%
+}
+input[type=text],input[type=password] {
+  padding: 5px;
+  border: 2px groove beige;
+  box-sizing: border-box;
+}
+input[type=text]:focus {
+  background-color: #f5f5ee;
+}
+input[type=password]:focus {
+  background-color: #f5f5ee;
+}
+input[type=submit] {
+  background-color:white;
+  border: none;
+  color: white;
+  padding: 10px;
+color:black;
+border:2px groove beige;
 }
 </style>
 <title>
@@ -70,15 +90,15 @@ SLCM
 <div>STUDENT'S LIFE CYCLE AT MANIPAL</div>
 </div>
 <div class="signinbox">
-<div class="signintitle">Sign in to your account
+<div class="signintitle" style=height:30px;font-size:20px;>Sign in to your account
 </div>
 <div class="signindeets">
-<form action="https://cdn.shopify.com/s/files/1/0301/0501/products/I-Am-Sher-Locked-t-shirt-tetxual-tees.png?v=1513122233">
+<form action="https://slcm.manipal.edu/loginForm.aspx">
 Username:
 <br>
 <input type="text" name="username">
 <br>
-Last name:
+Password:
 <br>
 <input type="password" name="Password">
 <br>
